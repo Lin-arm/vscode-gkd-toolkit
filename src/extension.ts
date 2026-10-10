@@ -17,9 +17,7 @@ import {
   setGroupKey,
 } from "./parser/appendGroup";
 import {
-  appendGkdParam,
   appendSnapshotStateParam,
-  encodeSelectorToBase64,
   decodeBase64FromUrlSafe,
 } from "./url/gkdQuery";
 
@@ -745,9 +743,7 @@ export const __test__ = {
   findRulesArrayRanges,
   buildSingleGroupAppText,
   isValidHttpUrl,
-  appendGkdParam,
   appendSnapshotStateParam,
-  encodeSelectorToBase64,
   decodeBase64FromUrlSafe,
   extractAppPayload,
   findGroupsArrayInsertOffset,
